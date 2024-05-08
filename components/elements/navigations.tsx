@@ -15,6 +15,7 @@ export default function Navigations() {
               SunuElection
             </h3>
           </div>
+
           <div>
             <button
               className="text-white bg-color_secondary px-4 py-2 rounded-lg font-bold 
