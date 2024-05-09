@@ -8,7 +8,7 @@ import CardCandidat from "@/components/elements/cardCandidat";
 import { Logo } from "@/components/logo/logo";
 import { useState } from "react";
 
-export default async function Page(){
+export default function Page(){
 const [search , setSeach] = useState('')
 
     return(<>
@@ -26,7 +26,7 @@ const [search , setSeach] = useState('')
     <div className="p-3 flex items-center gap-5 rounded-md max-w-2xl mt-20 border-2 border-#8C8A85">
 
             <UserRoundSearch />
-            <input value={search} 
+            <input value={search} onChange={e => {setSeach(e.target.value)}}
                   className="text-md w-full placeholder-text_muted font-semibold outline-none border-none focus:border-secondary"
                   placeholder={`Recherche `}
                 />
