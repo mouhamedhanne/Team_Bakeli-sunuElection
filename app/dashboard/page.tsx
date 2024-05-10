@@ -36,7 +36,7 @@ export default function page() {
                 className="text-white bg-color_secondary px-4 py-2 rounded-lg font-bold 
               hover:bg-color_secondary/90 "
               >
-                <Link href="/dashboard/tendances">Voir les Tendances</Link>
+                <Link href="/dashboard/tendance">Voir les Tendances</Link>
               </button>
             </div>
           </div>

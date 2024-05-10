@@ -11,53 +11,41 @@ import {
 
 const invoices = [
   {
-    ID: "INV001",
-    Prenom: "Paid",
-    Nom: "$250.00",
-    paymentMethod: "Credit Card",
+    ID: "E58293852",
+    Prenom: "Bassirou Diomaye",
+    Nom: "Faye",
+    Partie: "PASTEF",
   },
   {
-    ID: "INV002",
-    Prenom: "Pending",
-    Nom: "$150.00",
-    Partie: "PayPal",
+    ID: "E58293852",
+    Prenom: "Amadou",
+    Nom: "Ba",
+    Partie: "DORKATT",
   },
   {
-    ID: "INV003",
-    Prenom: "Unpaid",
-    Nom: "$350.00",
-    Partie: "Bank Transfer",
+    ID: "E58293852",
+    Prenom: "Aliou Mamadou",
+    Nom: "Dia",
+    Partie: "ASC Dahira bi",
   },
   {
-    ID: "INV004",
-    Prenom: "Paid",
-    totalAmount: "$450.00",
-    Partie: "Credit Card",
+    ID: "E58293852",
+    Prenom: "Anta Babacar",
+    Nom: "Ngom",
+    Partie: "BEUG POULET",
   },
   {
-    ID: "INV005",
-    Prenom: "Paid",
-    Nom: "$550.00",
-    Partie: "PayPal",
-  },
-  {
-    ID: "INV006",
-    Prenom: "Pending",
-    Nom: "$200.00",
-    Partie: "Bank Transfer",
-  },
-  {
-    ID: "INV007",
-    Prenom: "Unpaid",
-    Nom: "$300.00",
-    Partie: "Credit Card",
+    ID: "E58293852",
+    Prenom: "Nouha",
+    Nom: "Marega",
+    Partie: "BAKELI",
   },
 ];
 
 export default function TableTendance() {
   return (
     <Table>
-      <TableCaption>A list of your recent invoices.</TableCaption>
+      <TableCaption></TableCaption>
       <TableHeader>
         <TableRow>
           <TableHead className="w-[100px]">ID</TableHead>
@@ -71,16 +59,13 @@ export default function TableTendance() {
           <TableRow key={invoice.ID}>
             <TableCell className="font-medium">{invoice.ID}</TableCell>
             <TableCell>{invoice.Prenom}</TableCell>
-            <TableCell>{invoice.paymentMethod}</TableCell>
-            <TableCell className="text-right">{invoice.totalAmount}</TableCell>
+            <TableCell>{invoice.Nom}</TableCell>
+            <TableCell className="text-right">{invoice.Partie}</TableCell>
           </TableRow>
         ))}
       </TableBody>
       <TableFooter>
-        <TableRow>
-          <TableCell colSpan={3}>Total</TableCell>
-          <TableCell className="text-right">$2,500.00</TableCell>
-        </TableRow>
+        <TableRow></TableRow>
       </TableFooter>
     </Table>
   );
