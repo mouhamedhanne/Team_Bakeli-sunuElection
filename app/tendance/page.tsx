@@ -7,6 +7,7 @@ import Nbr_inscrit from "@/public/icon/nbr_inscrit.svg";
 import Nbr_votant from "@/public/icon/nbr_votant.svg";
 import Nbr_candidat from "@/public/icon/nbr_candidat.svg";
 import TableTendance from "@/components/elements/tables-tendances";
+import SkeltonCard from "@/components/elements/skeltonCard";
 
 export default function page() {
   return (
@@ -47,7 +48,7 @@ export default function page() {
           </div>
         </div>
 
-        <div className="mt-16 block lg:flex items-center justify-between">
+        <div className="mt-16 block lg:flex items-center justify-center lg:justify-between">
           <div className="flex items-center space-x-3 p-4 static_shadow">
             <div>
               <p className="text-gray-400">Nombre d'inscrits</p>
@@ -85,11 +86,13 @@ export default function page() {
           </div>
         </div>
 
-        <div className="mt-20 flex">
+        <div className="mt-20 flex justify-between">
           <div>
             <TableTendance />
           </div>
-          <div></div>
+          <div className="hidden lg:block">
+            <SkeltonCard />
+          </div>
         </div>
       </div>
     </Container>
