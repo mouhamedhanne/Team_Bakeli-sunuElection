@@ -2,31 +2,42 @@
   {
     "name": "Bassirou D. Faye",
     "fonction": "Inspecteur Impot/Domaine",
-    "image": "/images/bassirou-diomay-faye.svg"
+    "image": "/images/bassirou-diomay-faye.svg",
+    "description": "Bassirou Diomaye Faye, né à Ndiaganiao il y a 40 ans, a commencé son parcours éducatif à la mission catholique et au CEM de Ndiaganiao, avant de poursuivre ses études au Lycée Demba Diop de Mbour où il a décroché son baccalauréat en 2000.\n\n                    Il est diplômé de l’ENA et détient une maîtrise en Droit de l’UCAD obtenue en 2004.\n\n                    Sa carrière professionnelle l’a vu occuper divers postes au sein de l’administration fiscale sénégalaise, notamment au Centre des professions libérales, au Centre des grandes entreprises, et à la Brigade des vérifications, avant de devenir chef du bureau des contentieux à la Direction de la législation et de la coopération.\n\n                    Bassirou Diomaye Faye est membre fondateur du parti Pastef-Les Patriotes, où il été président du Mouvement des cadres puis secrétaire général avant la dissolution du parti en Juillet 2023.\n\n                    Bassirou Diomaye Faye est en prison depuis le mois d’avril 2023 et accusé de diffusion de fausse nouvelle, outrage à magistrat et diffamation envers un corps constitué, à la suite de la publication d’un post sur les réseaux sociaux où il critique le comportement de certains magistrats."
   },
   {
-    "name": "Bassirou D. Faye",
-    "fonction": "Inspecteur Impot/Domaine",
-    "image": "/images/bassirou-diomay-faye.svg"
+    "name": "Anta Babacar Ngom",
+    "fonction": "Entrepreneuse - DG SEDIMA",
+    "image": "/images/anta.svg"
   },
   {
-    "name": "Bassirou D. Faye",
-    "fonction": "Inspecteur Impot/Domaine",
-    "image": "/images/bassirou-diomay-faye.svg"
+    "name": "Cheikh Tidiane Dieye",
+    "fonction": "Docteur en sociologie",
+    "image": "/images/tidiane.svg"
   },
   {
-    "name": "Bassirou D. Faye",
-    "fonction": "Inspecteur Impot/Domaine",
-    "image": "/images/bassirou-diomay-faye.svg"
+    "name": "Khalifa Ababacar Sall",
+    "fonction": "Professeur d'histoire et de Géographie",
+    "image": "/images/khaf.svg"
   },
   {
-    "name": "Bassirou D. Faye",
-    "fonction": "Inspecteur Impot/Domaine",
-    "image": "/images/bassirou-diomay-faye.svg"
+    "name": "Dethie Fall",
+    "fonction": "Ingénieur Polytechnicien",
+    "image": "/images/dethie.svg"
   },
   {
-    "name": "Bassirou D. Faye",
-    "fonction": "Inspecteur Impot/Domaine",
-    "image": "/images/bassirou-diomay-faye.svg"
+    "name": "Boubacar Camara",
+    "fonction": "Douanier/Avocat",
+    "image": "/images/boubacar.svg"
+  },
+  {
+    "name": "Habib Sy",
+    "fonction": "Economiste",
+    "image": "/images/habib.svg"
+  },
+  {
+    "name": "Daouda Ndiaye",
+    "fonction": "Professeur Titulaire des Universités",
+    "image": "/images/daouda.svg"
   }
 ]

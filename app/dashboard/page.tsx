@@ -15,8 +15,13 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
+import { toast } from "sonner";
 
 export default function page() {
+  const Succes = () => {
+    toast.success("Voter");
+  };
+
   return (
     <Container>
       <div>
@@ -44,7 +49,7 @@ export default function page() {
 
         <SearchBar />
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-10">
+        <div className="my-16 grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-10">
           {Candidats.map((candidat, index) => (
             <div
               key={index}
@@ -83,7 +88,7 @@ export default function page() {
                   </AlertDialog>
 
                   <button className="mt-2 px-6 py-1 border border-color_primary text-color_primary rounded-full font-bold">
-                    Programme
+                    <Link href="/dashboard/candidat">Programme</Link>
                   </button>
                 </div>
               </div>
